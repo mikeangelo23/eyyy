@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  min-height: 100vh;
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  background: tomato;
+  font-size: 1.5em;
+  letter-spacing: 0.5em;
+  border-radius: 20px;
+  padding: 20px 20px;
+  transition:0.5s;
+  box-shadow: 0 0 5px tomato,
+  0 0 25px tomato;
+  margin: 20px;
+}
+
+a:hover{
+  Letter-spacing: 20px;
+  box-shadow: 0 0 5px tomato,
+  0 0 25px tomato, 0 0 50px tomato,0 0 100px tomato, 0 0 200px tomato;
+}
